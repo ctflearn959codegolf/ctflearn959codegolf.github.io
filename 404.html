@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <title>404</title>
+    <style>
+        video#bgvideo {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            -ms-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+        p { 
+            text-shadow: 5px 5px 7px #0F0F0F; 
+            font-size: 500%;
+            color: #334d4d; 
+            margin: auto;      
+        }
+    </style>
+</head>
+<body>
+    <ul style="color:white;"></ul>
+    <video playsinline autoplay muted loop id="bgvideo">
+        <source src="msg.webm" type="video/webm">
+        <source src="msg.mp4" type="video/mp4">
+    </video>
+    <p>#404</p>
+</body>
+</html>
